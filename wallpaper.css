@@ -1,0 +1,16 @@
+.wallpaper-maker{margin-top:32px;padding-top:28px;border-top:1px solid var(--line)}
+.wallpaper-maker h3{font-size:25px;margin:8px 0 12px}
+.wallpaper-maker details{margin:18px 0 24px}
+.wallpaper-maker summary{cursor:pointer;color:var(--accent);font-weight:650}
+.wallpaper-options{display:grid;gap:10px;margin-top:16px}
+.wallpaper-options label{display:flex;align-items:flex-start;gap:10px;font-size:15px}
+.wallpaper-options input{width:20px;height:20px;flex:none;margin:3px 0;accent-color:var(--accent)}
+.wallpaper-status{font-size:15px;color:var(--muted);min-height:1.7em}
+.wallpaper-previews{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:22px;align-items:start}
+.wallpaper-figure{margin:0;min-width:0;text-align:center}
+.wallpaper-figure img{display:block;width:100%;height:auto;max-width:320px;margin:0 auto;border:1px solid #e1d6e7;border-radius:18px;box-shadow:0 5px 24px #74618312}
+.wallpaper-figure figcaption{font-size:14px;color:var(--muted);margin:10px 0}
+.wallpaper-actions{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;align-items:center;font-size:15px}
+.wallpaper-actions a{color:var(--accent);text-underline-offset:4px}
+.wallpaper-download{font-weight:700}
+@media(max-width:400px){.wallpaper-previews{grid-template-columns:minmax(0,1fr)}}
