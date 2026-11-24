@@ -1,16 +1,18 @@
-.wallpaper-maker{margin-top:32px;padding-top:28px;border-top:1px solid var(--line)}
+.wallpaper-maker{margin-top:24px;padding-top:22px;border-top:1px solid var(--line)}
 .wallpaper-maker h3{font-size:25px;margin:8px 0 12px}
-.wallpaper-maker details{margin:18px 0 24px}
-.wallpaper-maker summary{cursor:pointer;color:var(--accent);font-weight:650}
-.wallpaper-options{display:grid;gap:10px;margin-top:16px}
-.wallpaper-options label{display:flex;align-items:flex-start;gap:10px;font-size:15px}
-.wallpaper-options input{width:20px;height:20px;flex:none;margin:3px 0;accent-color:var(--accent)}
+.wallpaper-maker .field{margin:18px 0}
 .wallpaper-status{font-size:15px;color:var(--muted);min-height:1.7em}
-.wallpaper-previews{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:22px;align-items:start}
+.wallpaper-previews{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 18px;align-items:start;margin:18px 0 24px}
 .wallpaper-figure{margin:0;min-width:0;text-align:center}
-.wallpaper-figure img{display:block;width:100%;height:auto;max-width:320px;margin:0 auto;border:1px solid #e1d6e7;border-radius:18px;box-shadow:0 5px 24px #74618312}
-.wallpaper-figure figcaption{font-size:14px;color:var(--muted);margin:10px 0}
-.wallpaper-actions{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;align-items:center;font-size:15px}
-.wallpaper-actions a{color:var(--accent);text-underline-offset:4px}
-.wallpaper-download{font-weight:700}
-@media(max-width:400px){.wallpaper-previews{grid-template-columns:minmax(0,1fr)}}
+.wallpaper-figure img{display:block;width:100%;height:auto;margin:0 auto;border:1px solid #e1d6e7;border-radius:14px;box-shadow:0 5px 24px #74618312}
+.wallpaper-figure figcaption{font-size:15px;font-weight:650;color:var(--ink);margin:0 0 10px}
+.wallpaper-actions{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;align-items:center;margin-top:10px;font-size:14px}
+.wallpaper-actions a,.wallpaper-open{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:6px 9px;border:1px solid var(--line);border-radius:8px;background:#fff;color:var(--accent);font:inherit;text-decoration:none}
+.wallpaper-download{font-weight:700;background:var(--wash)!important}
+.wallpaper-dialog{max-width:560px;width:calc(100% - 28px);max-height:92vh;overflow:auto}
+.wallpaper-dialog img{display:block;width:100%;height:auto;margin:16px 0}
+.other-exports{border-top:1px solid var(--line);margin-top:24px;padding-top:24px}
+.other-exports h3{font-size:18px;margin:0}
+.other-exports .tools{margin:14px 0 0}
+.memo-heading{margin-top:32px}
+@media(max-width:420px){.wallpaper-previews{gap:20px 12px}.wallpaper-figure figcaption{font-size:13px}.wallpaper-actions{font-size:12px;gap:5px}.wallpaper-actions a,.wallpaper-open{padding:6px}.wallpaper-maker h3{font-size:22px}}
